@@ -32,7 +32,8 @@ app.post("/upload", upload.single("file"), (req, res) => {
     return res.status(400).json({ error: "Missing file, newFileName, or folderPath" });
   }
 
-  const { newFileName, folderPath } = req.body;
+  let { newFileName, folderPath } = req.body;
+  folderPath = 'C:\\Microglia\\'+folderPath;
   const fileExtension = path.extname(req.file.originalname);
   const finalFileName = newFileName.includes(".") ? newFileName : newFileName + fileExtension;
   const savePath = path.join(folderPath, finalFileName);
