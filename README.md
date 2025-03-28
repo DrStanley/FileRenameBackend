@@ -9,10 +9,10 @@ This API allows users to upload a file, rename it, and save it to a specified lo
 ### 1️⃣ **Start the Server**
 Ensure your Node.js backend is running. If not, start it using:
 ```sh
-npm start
+node server.js
 ```
 
-By default, the server will run on `http://localhost:5000` (change this if your server runs on a different port).
+By default, the server will run on `http://localhost:3000` (change this if your server runs on a different port).
 
 ---
 
