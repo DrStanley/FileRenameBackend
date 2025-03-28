@@ -24,7 +24,7 @@ By default, the server will run on `http://localhost:3000` (change this if your 
 - Select `POST`
 - Enter the API endpoint:  
   ```
-  http://localhost:5000/upload
+  http://localhost:3000/upload
   ```
 
 #### **📌 Step 3: Set Headers**
