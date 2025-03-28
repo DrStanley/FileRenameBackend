@@ -2,6 +2,26 @@
 
 This API allows users to upload a file, rename it, and save it to a specified location(`C:\Microglia\`).
 
+
+🚀 How to Set Up the Project
+
+**Install Node.js**
+
+If you haven't installed Node.js, download and install it from Node.js Official Website.
+
+To verify installation, run:
+```sh
+node -v
+npm -v
+```
+These commands should return the installed versions of Node.js and npm.
+
+**Clone the Repository & Install Dependencies**
+```sh
+git clone <repository-url>
+cd FileRenameBackend
+npm install
+```
 ---
 
 ## 🚀 How to Test with Postman
@@ -56,7 +76,7 @@ Click **Send**, and you should receive a JSON response like:
 
 ### 3️⃣ **Verify the File on Your System**
 1. Open `C:\\Microglia\\'+folderPath` (or your specified save path) you can change if you want.
-2. Check if the file `renamed-file.jpg` exists.
+2. Check if the file `renamed-file.ext` exists.
 
 ---
 
