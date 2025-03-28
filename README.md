@@ -40,17 +40,17 @@ By default, the server will run on `http://localhost:3000` (change this if your 
 2. Select `form-data`.
 3. Add the following fields:
    - **Key:** `file` → Type: `File` → Select a file from your system.
-   - **Key:** `newFileName` → Type: `Text` → Enter the new file name (e.g., `renamed-file.jpg`).
-   - **Key:** `savePath` → Type: `Text` → Enter the folder where the file should be saved (e.g., `C:/Users/Public/Documents/`).
+   - **Key:** `newFileName` → Type: `Text` → Enter the new file name (e.g., `renamed-file`). No need for the extenstion because it takes the extension of previous name.
+   - **Key:** `folderPath` → Type: `Text` → Enter the folder where the file should be saved (e.g., `C:\Microglia\folderPath`).
 
 #### **📌 Step 5: Send the Request**
 Click **Send**, and you should receive a JSON response like:
 ```json
 {
-  "message": "File uploaded and renamed successfully!",
-  "savedPath": "C:/Users/Public/Documents/renamed-file.jpg"
+  "message": "File saved successfully at C:/Users/Public/Documents/renamed-file.jpg",
 }
 ```
+![image](https://github.com/user-attachments/assets/06eeecc5-ffaf-4d20-b3a0-331bf9928e9e)
 
 ---
 
